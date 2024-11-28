@@ -5,7 +5,7 @@ import SignInWG from './Components/SignInWG'
 const App = () => {
   return (
     <div>
-       <BrowserRouter>
+       <BrowserRouter basename='/whather'>
          <Routes>
             <Route path='/' element={<Whather/>}/>
             <Route path='/signIn' element={<SignInWG/>}/>

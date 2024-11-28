@@ -24,8 +24,8 @@ const Whather = () => {
     
    }
   return (
-    <center className='mt-5'>
-            <div className="card bg-primary w-50">
+    <center className='mt-5 '>
+            <div className="card bg-primary  mobile_view">
                <div className="card-body">
                   <h1 className="card-title text-white">
                       Whather App

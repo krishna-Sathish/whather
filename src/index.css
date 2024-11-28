@@ -1,0 +1,8 @@
+.mobile_view{
+    width: 50%;
+}
+@media (max-width:600px){
+    .mobile_view{
+        width: 100%;
+    }
+}
